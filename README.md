@@ -4,7 +4,7 @@ This Slack app adds a simple `/cls` / `/cmd cls` command that clears the most re
 activity in a channel. For example, `/cls 10` / `/cmd cls 10` will clear the 10
 most recent messages in a channel.
 
-[<img src="https://deploy.stdlib.com/static/images/deploy.svg.png" width="192">](https://deploy.stdlib.com/)
+[<img src="https://deploy.stdlib.com/static/images/deploy.svg" width="192">](https://deploy.stdlib.com/)
 
 This Slack app is intended to be used as a simple utility tool for prototyping
 other Slack applications: while building Slack apps, your test channel (like #demo)
@@ -94,7 +94,7 @@ When you're ready, you can click the button below to deploy the code immediately
 **You will be asked to configure your Slack application automatically as part
 of the deployment process.**
 
-[<img src="https://deploy.stdlib.com/static/images/deploy.svg.png" width="192">](https://deploy.stdlib.com/)
+[<img src="https://deploy.stdlib.com/static/images/deploy.svg" width="192">](https://deploy.stdlib.com/)
 
 On the following page, you'll see an option to **Link Resource**. Click it to
 easily set up a Slack app in a few clicks.
