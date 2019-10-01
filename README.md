@@ -114,11 +114,11 @@ of the deployment process.**
 [<img src="https://deploy.stdlib.com/static/images/deploy.svg" width="192">](https://deploy.stdlib.com/)
 
 On the following page, you'll see an option to **Link Resource**. Click it to
-easily set up a Slack app in a few clicks.
+proceed.
 
 <img src="/readme/images/slack-link-resource.png" width="300">
 
-Once you click the button, you'll be taken to a list of your previously
+Next, you'll be taken to a list of your previously
 linked Slack apps on Standard Library. Choose one if available, otherwise click
 **Link New Resource**.
 
