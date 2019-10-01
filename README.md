@@ -4,7 +4,7 @@ This Slack app adds a simple `/cls` / `/cmd cls` command that clears the most re
 activity in a channel. For example, `/cls 10` / `/cmd cls 10` will clear the 10
 most recent messages in a channel.
 
-[<img src="https://deploy.stdlib.com/static/images/deploy.svg" width="192">](https://deploy.stdlib.com/)
+[<img src="https://deploy.stdlib.com/static/images/deploy.svg.png" width="192">](https://deploy.stdlib.com/)
 
 This Slack app is intended to be used as a simple utility tool for prototyping
 other Slack applications: while building Slack apps, your test channel (like #demo)
@@ -94,18 +94,18 @@ When you're ready, you can click the button below to deploy the code immediately
 **You will be asked to configure your Slack application automatically as part
 of the deployment process.**
 
-[<img src="https://deploy.stdlib.com/static/images/deploy.svg" width="192">](https://deploy.stdlib.com/)
+[<img src="https://deploy.stdlib.com/static/images/deploy.svg.png" width="192">](https://deploy.stdlib.com/)
 
 On the following page, you'll see an option to **Link Resource**. Click it to
 easily set up a Slack app in a few clicks.
 
-<img src="/readme/images/slack-link-resource" width="300">
+<img src="./readme/images/slack-link-resource.png" width="300">
 
 Once you click the button, you'll be taken to a list of your previously
 linked Slack apps on Standard Library. Choose one if available, otherwise click
 **Link New Resource**.
 
-<img src="/readme/images/slack-link-new-resource" width="300">
+<img src="./readme/images/slack-link-new-resource.png" width="300">
 
 ### Easy Slack App Installation (1 Step)
 
@@ -115,13 +115,13 @@ Using this method will make the `cls` command available via `/cmd cls`.
 
 To use this method, when linking a new resource choose the first available option:
 
-<img src="/readme/images/slack-install-options" width="300">
+<img src="./readme/images/slack-install-options.png" width="300">
 
 This process will install the **Official Standard Library Slack App** to a
 workspace of your choice. Once installed, you'll be able to enter your
 Slack app details (name, display picture):
 
-<img src="/readme/images/slack-set-app-details" width="300">
+<img src="./readme/images/slack-set-app-details.png" width="300">
 
 That's it! **Your command will be available at /cmd cls**.
 
@@ -132,7 +132,7 @@ available at `/cmd`, you'll have to create an internal Slack app from scratch.
 Simply choose the **Custom Internal Application** option. This gives you a little
 more control over your Slack app, at the expense of some extra configuration time.
 
-<img src="/readme/images/slack-custom-internal-app" width="300">
+<img src="./readme/images/slack-custom-internal-app.png" width="300">
 
 The process takes anywhere from 5 - 15 minutes, depending on your familiarity.
 You'll be walked through it in the Standard Library interface.
@@ -176,7 +176,7 @@ lib get <username>/<project-name>@dev
 You might notice that you encounter the following debug message when running the
 `/cls` / `/cmd cls` command:
 
-<img src="/readme/images/slack-dev-alert" width="300">
+<img src="./readme/images/slack-dev-alert.png" width="300">
 
 This message **only appears in dev environments**. Standard Library has
 easy dev / prod environment management, if you'd like to ship to production,
@@ -185,7 +185,7 @@ find your project and select it.
 
 From the environment management screen, simply click **Ship Release**.
 
-<img src="/readme/images/slack-env-management" width="300">
+<img src="./readme/images/slack-env-management.png" width="300">
 
 You'll be asked to link a new account, but it will remove the message when
 in production.
