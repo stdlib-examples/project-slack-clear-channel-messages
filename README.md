@@ -12,7 +12,7 @@ can rapidly fill with spam as you test out message formats and more. We recommen
 installing this app primarily in development workspaces - please don't give
 your entire production workspace the ability to destroy other people's messages!
 
-## Example Usage
+# Example Usage
 
 You can use this app by typing `/cls` or `/cmd cls` depending on how you
 choose to deploy your Slack application. More on that below, in [Installation](#installation).
@@ -21,15 +21,15 @@ By default, the Slack `/cls` / `/cmd cls` command takes one argument: an integer
 between 1 and 10. If an invalid value is provided, it will default to 1 and
 the maximum number of lines you can remove is 10.
 
-### Clear 1 Line
+## Clear 1 Line
 
 You can clear one line by typing `/cls` / `/cmd cls` or `/cls 1` / `/cmd cls 1`.
 
-### Clear <= 10 lines
+## Clear <= 10 lines
 
 You can clear 5 lines by typing `/cls 5` / `/cmd cls 5`.
 
-## How It Works
+# How It Works
 
 This application sets up a simple webhook response to a Slack event
 and then makes requests to Slack's APIs. Standard Library's platform
@@ -83,7 +83,7 @@ for (let i = 0; i < messageCount; i++) {
 }
 ```
 
-## Installation
+# Installation
 
 You can install this Slack app to your workspace using [Standard Library](https://stdlib.com/).
 Standard Library is an API and workflow development platform that automatically
@@ -107,7 +107,7 @@ linked Slack apps on Standard Library. Choose one if available, otherwise click
 
 <img src="/readme/images/slack-link-new-resource.png" width="300">
 
-### Easy Slack App Installation (1 Step)
+## Easy Slack App Installation (1 Step)
 
 The easiest way to configure this Slack application is by installing the
 official Standard Library slack application, which exposes a `/cmd` command.
@@ -125,7 +125,7 @@ Slack app details (name, display picture):
 
 That's it! **Your command will be available at /cmd cls**.
 
-### Advanced Slack App Installation (6 Steps)
+## Advanced Slack App Installation (6 Steps)
 
 If you'd like to configure your own Slack application to make the command
 available at `/cmd`, you'll have to create an internal Slack app from scratch.
@@ -137,19 +137,19 @@ more control over your Slack app, at the expense of some extra configuration tim
 The process takes anywhere from 5 - 15 minutes, depending on your familiarity.
 You'll be walked through it in the Standard Library interface.
 
-## Making Changes
+# Making Changes
 
 There are two ways to modify your application. The first is via our in-browser
 editor, [Code on Standard Library](https://code.stdlib.com/). The second is
 via the [Standard Library CLI](https://github.com/stdlib/lib).
 
-### Changes via Code on Standard Library
+## Changes via Code on Standard Library
 
 Simply visit [`code.stdlib.com`](https://code.stdlib.com) and pick your project
 from the left sidebar. You can easily make updates and changes this way, and
 deploy directly from your browser.
 
-### Changes via the Command Line Interface
+## Changes via the Command Line Interface
 
 You can either export your project via tarball by right-clicking the project
 once open on [Code on Standard Library](https://code.stdlib.com/). You can then
@@ -171,7 +171,7 @@ Alternatively, you can retrieve your package via `lib get`...
 lib get <username>/<project-name>@dev
 ```
 
-## Shipping to Production
+# Shipping to Production
 
 You might notice that you encounter the following debug message when running the
 `/cls` / `/cmd cls` command:
@@ -190,7 +190,7 @@ From the environment management screen, simply click **Ship Release**.
 You'll be asked to link a new account, but it will remove the message when
 in production.
 
-## Support
+# Support
 
 Via Slack: [`libdev.slack.com`](https://libdev.slack.com/)
 
@@ -201,7 +201,7 @@ Via Twitter: [@StdLibHQ](https://twitter.com/StdLibHQ)
 
 Via E-mail: [support@stdlib.com](mailto:support@stdlib.com)
 
-## Acknowledgements
+# Acknowledgements
 
 Thanks to the Standard Library team and community for all the support!
 
