@@ -1,7 +1,7 @@
 # Slack App: Clear Channel Messages
 
-This Slack app adds a simple `/cls` / `/cmd cls` command that clears the most recent Slack
-activity in a channel. For example, `/cls 10` / `/cmd cls 10` will clear the 10
+This Slack app adds a simple `/cls` (or `/cmd cls`) command that clears the most recent Slack
+activity in a channel. For example, `/cls 10` (or `/cmd cls 10`) will clear the 10
 most recent messages in a channel.
 
 [<img src="https://deploy.stdlib.com/static/images/deploy.svg" width="192">](https://deploy.stdlib.com/)
@@ -14,20 +14,33 @@ your entire production workspace the ability to destroy other people's messages!
 
 # Example Usage
 
-You can use this app by typing `/cls` or `/cmd cls` depending on how you
+You can use this app by typing `/cls` (or `/cmd cls`) depending on how you
 choose to deploy your Slack application. More on that below, in [Installation](#installation).
 
-By default, the Slack `/cls` / `/cmd cls` command takes one argument: an integer
+By default, the Slack `/cls` (or `/cmd cls`) command takes one argument: an integer
 between 1 and 10. If an invalid value is provided, it will default to 1 and
 the maximum number of lines you can remove is 10.
 
 ## Clear 1 Line
 
-You can clear one line by typing `/cls` / `/cmd cls` or `/cls 1` / `/cmd cls 1`.
+You can clear one line by typing `/cls` (or `/cmd cls`).
 
 ## Clear <= 10 lines
 
-You can clear 5 lines by typing `/cls 5` / `/cmd cls 5`.
+You can clear 5 lines by typing `/cls 5` (or `/cmd cls 5`).
+
+# Table of Contents
+
+1. [How It Works](#how-it-works)
+1. [Installation](#installation)
+  1. [Easy Slack App Installation (1 Step)](#easy-slack-app-installation-1-step)
+  1. [Advanced Slack App Installation (6 Steps)](#advanced-slack-app-installation-6-steps)
+1. [Making Changes](#making-changes)
+  1. [via Web Browser](#via-web-browser)
+  1. [via Command Line](#via-command-line)
+1. [Shipping to Production](#shipping-to-production)
+1. [Support](#support)
+1. [Acknowledgements](#acknowledgements)
 
 # How It Works
 
@@ -128,7 +141,7 @@ That's it! **Your command will be available at /cmd cls**.
 ## Advanced Slack App Installation (6 Steps)
 
 If you'd like to configure your own Slack application to make the command
-available at `/cmd`, you'll have to create an internal Slack app from scratch.
+available at `/cls`, you'll have to create an internal Slack app from scratch.
 Simply choose the **Custom Internal Application** option. This gives you a little
 more control over your Slack app, at the expense of some extra configuration time.
 
@@ -143,13 +156,13 @@ There are two ways to modify your application. The first is via our in-browser
 editor, [Code on Standard Library](https://code.stdlib.com/). The second is
 via the [Standard Library CLI](https://github.com/stdlib/lib).
 
-## Changes via Code on Standard Library
+## via Web Browser
 
 Simply visit [`code.stdlib.com`](https://code.stdlib.com) and pick your project
 from the left sidebar. You can easily make updates and changes this way, and
 deploy directly from your browser.
 
-## Changes via the Command Line Interface
+## via Command Line
 
 You can either export your project via tarball by right-clicking the project
 once open on [Code on Standard Library](https://code.stdlib.com/). You can then
