@@ -156,7 +156,7 @@ once open on [Code on Standard Library](https://code.stdlib.com/). You can then
 install the CLI tools from [stdlib/lib](https://github.com/stdlib/lib) to test,
 makes changes, and deploy.
 
-```
+```shell
 # Test event locally
 # NOTE: You'll need to set STDLIB_SECRET_TOKEN in env.json
 lib .events.slack.command.cls --event '{"channel_id":"CXXXXX","text":""}'
@@ -167,7 +167,7 @@ lib up dev
 
 Alternatively, you can retrieve your package via `lib get`...
 
-```
+```shell
 lib get <username>/<project-name>@dev
 ```
 
