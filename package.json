@@ -1,0 +1,6 @@
+{
+  "name": "slack-cls-command",
+  "dependencies": {
+    "lib": "latest"
+  }
+}

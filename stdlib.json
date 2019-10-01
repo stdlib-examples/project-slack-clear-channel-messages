@@ -1,0 +1,16 @@
+{
+  "name": "/slack-cls-command",
+  "timeout": 20000,
+  "version": "0.0.0",
+  "description": "",
+  "events": [
+    {
+      "slack.command": {
+        "filename": "events/slack/command/cls",
+        "subtype": {
+          "command": "cls"
+        }
+      }
+    }
+  ]
+}
