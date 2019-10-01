@@ -6,6 +6,10 @@ most recent messages in a channel.
 
 [<img src="https://deploy.stdlib.com/static/images/deploy.svg" width="192">](https://deploy.stdlib.com/)
 
+The Slack app itself will run on [Standard Library](https://stdlib.com), a
+free-to-use API and workflow hosting platform **powered by Node.js** that will
+use this repository as its project structure.
+
 This Slack app is intended to be used as a simple utility tool for prototyping
 other Slack applications: while building Slack apps, your test channel (like #demo)
 can rapidly fill with spam as you test out message formats and more. We recommend
