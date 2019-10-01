@@ -140,7 +140,9 @@ Slack app details (name, display picture):
 
 <img src="/readme/images/slack-set-app-details.png" width="400">
 
-That's it! **Your command will be available at /cmd cls**.
+**That's it!**
+
+Your command will be available at `/cmd cls`.
 
 ## Advanced Slack App Installation (6 Steps)
 
