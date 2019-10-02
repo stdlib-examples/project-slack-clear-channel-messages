@@ -2,7 +2,6 @@
 
 While building Slack apps, your test channel (like `#demo`)
 can rapidly fill with spam as you test out message formats and more.
-
 This Slack app adds a simple `/cls` (or `/cmd cls`) command that clears the most recent Slack
 activity in a channel. For example, `/cls 10` (or `/cmd cls 10`) will clear the 10
 most recent messages in a channel.
