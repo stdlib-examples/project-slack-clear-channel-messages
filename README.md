@@ -3,19 +3,19 @@
 While building Slack apps, your test channel (like `#demo`)
 can rapidly fill with spam as you test out message formats and more.
 
-<img src="/readme/images/slack-cls-gif.gif" width="400">
-
 This Slack app adds a simple `/cls` (or `/cmd cls`) command that clears the most recent Slack
 activity in a channel. For example, `/cls 10` (or `/cmd cls 10`) will clear the 10
 most recent messages in a channel.
 
-[<img src="https://deploy.stdlib.com/static/images/deploy.svg" width="192">](https://deploy.stdlib.com/)
+<img src="/readme/images/slack-cls-gif.gif" width="400">
 
 The Slack app itself will run on [Standard Library](https://stdlib.com), a
 free-to-use API and workflow hosting platform, **powered by Node.js**, that will
 use this repository as its project structure. Standard Library will automatically
 handle Slack API authentication / webhook signing and more for you, so you can
 focus on just writing and modifying logic.
+
+[<img src="https://deploy.stdlib.com/static/images/deploy.svg" width="192">](https://deploy.stdlib.com/)
 
 We recommend installing this app primarily in development workspaces -
 please don't give your entire production workspace the ability to destroy
