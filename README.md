@@ -1,4 +1,4 @@
-# Slack App: Clear Channel Messages
+# Clear Slack Channel Messages
 
 While building Slack apps, your test channel (like `#demo`)
 can rapidly fill with spam as you test out message formats and more.
