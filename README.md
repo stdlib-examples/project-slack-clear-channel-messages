@@ -18,6 +18,8 @@ your entire production workspace the ability to destroy other people's messages!
 
 # Example Usage
 
+<img src="/readme/images/slack-cls-gif.gif" width="400">
+
 You can use this app by typing `/cls` (or `/cmd cls`) depending on how you
 choose to deploy your Slack application. More on that below, in [Installation](#installation).
 
