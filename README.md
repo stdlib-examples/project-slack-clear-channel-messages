@@ -11,7 +11,9 @@ most recent messages in a channel.
 
 The Slack app itself will run on [Standard Library](https://stdlib.com), a
 free-to-use API and workflow hosting platform, **powered by Node.js**, that will
-use this repository as its project structure.
+use this repository as its project structure. Standard Library will automatically
+handle Slack API authentication / webhook signing and more for you, so you can
+focus on just writing and modifying logic.
 
 We recommend installing this app primarily in development workspaces -
 please don't give your entire production workspace the ability to destroy
