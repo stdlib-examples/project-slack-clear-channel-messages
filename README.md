@@ -1,5 +1,8 @@
 # Slack App: Clear Channel Messages
 
+While building Slack apps, your test channel (like `#demo`)
+can rapidly fill with spam as you test out message formats and more.
+
 This Slack app adds a simple `/cls` (or `/cmd cls`) command that clears the most recent Slack
 activity in a channel. For example, `/cls 10` (or `/cmd cls 10`) will clear the 10
 most recent messages in a channel.
@@ -10,11 +13,9 @@ The Slack app itself will run on [Standard Library](https://stdlib.com), a
 free-to-use API and workflow hosting platform, **powered by Node.js, that will
 use this repository as its project structure**.
 
-This Slack app is intended to be used as a simple utility tool for prototyping
-other Slack applications: while building Slack apps, your test channel (like #demo)
-can rapidly fill with spam as you test out message formats and more. We recommend
-installing this app primarily in development workspaces - please don't give
-your entire production workspace the ability to destroy other people's messages!
+We recommend installing this app primarily in development workspaces -
+please don't give your entire production workspace the ability to destroy
+other people's messages!
 
 # Example Usage
 
