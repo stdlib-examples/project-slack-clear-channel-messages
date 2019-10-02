@@ -153,7 +153,8 @@ more control over your Slack app, at the expense of some extra configuration tim
 
 <img src="/readme/images/slack-custom-internal-app.png" width="400">
 
-The process takes anywhere from 5 - 15 minutes, depending on your familiarity.
+**The advanced process takes anywhere from 5 - 15 minutes**, depending on your
+familiarity with Slack's application ecosystem.
 You'll be walked through it in the Standard Library interface.
 
 # Making Changes
