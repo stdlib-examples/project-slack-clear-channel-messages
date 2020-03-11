@@ -14,7 +14,7 @@ use this repository as its project structure. Standard Library will automaticall
 handle Slack API authentication / webhook signing and more for you, so you can
 focus on just writing and modifying logic.
 
-[<img src="https://deploy.stdlib.com/static/images/deploy.svg" width="192">](https://deploy.stdlib.com/)
+[<img src="https://deploy.stdlib.com/static/images/deploy.svg?" width="192">](https://deploy.stdlib.com/)
 
 We recommend installing this app primarily in development workspaces -
 please don't give your entire production workspace the ability to destroy
@@ -115,7 +115,7 @@ When you're ready, you can click the button below to deploy the code immediately
 **You will be asked to configure your Slack application automatically as part
 of the deployment process.**
 
-[<img src="https://deploy.stdlib.com/static/images/deploy.svg" width="192">](https://deploy.stdlib.com/)
+[<img src="https://deploy.stdlib.com/static/images/deploy.svg?" width="192">](https://deploy.stdlib.com/)
 
 On the following page, you'll see an option to **Link Resource**. Click it to
 proceed.
